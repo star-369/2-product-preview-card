@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --darker-cyan: hsl(158, 36%, 31%);
+  --cream: hsl(30, 38%, 92%);
+
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsla(228, 12%, 48%, 0.7);
+  --white: hsl(0, 0%, 100%);
+
+  --montserrat: "Montserrat", sans-serif;
+  --fraunces: "Fraunces", serif;
+}
