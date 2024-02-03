@@ -16,8 +16,8 @@ export default function PreviewCard({
   return (
     <main className="w-[350px] rounded-2xl overflow-hidden bg-white md:w-[700px] md:grid grid-cols-2">
       <section
-        className="bg-[url(./src/assets/images/image-product-mobile.jpg)] bg-cover bg-center
-      w-full h-[18rem] md:bg-[url(./src/assets/images/image-product-desktop.jpg)] md:h-full"
+        className="bg-[url('./src/assets/images/image-product-mobile.jpg')] bg-cover bg-center
+      w-full h-[18rem] md:bg-[url('./src/assets/images/image-product-desktop.jpg')] md:h-full"
       ></section>
       <section className="p-6 md:p-8 font-montserrat">
         <p className="font-semibold tracking-widest text-dark-grayish-blue md:tracking-[0.5rem]">
