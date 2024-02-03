@@ -16,8 +16,8 @@ export default function PreviewCard({
   return (
     <main className="w-[360px] hover:outline hover:outline-2 hover:outline-black shadow-css-0 rounded-2xl overflow-hidden bg-white xl:w-[720px] xl:grid grid-cols-2">
       <section
-        className="bg-[url('./src/assets/images/image-product-mobile.jpg')] bg-cover bg-center
-      w-full h-[18rem] xl:bg-[url('./src/assets/images/image-product-desktop.jpg')] xl:h-full"
+        className="bg-[url('../assets/images/image-product-mobile.jpg')] bg-cover bg-center
+      w-full h-[18rem] xl:bg-[url('../assets/images/image-product-desktop.jpg')] xl:h-full"
       ></section>
       <section className="p-6 xl:p-8 font-montserrat">
         <p className="tracking-[0.25rem] text-xs text-dark-grayish-blue xl:tracking-[0.5rem]">
