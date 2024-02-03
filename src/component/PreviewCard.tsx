@@ -14,30 +14,32 @@ export default function PreviewCard({
   actualPrice,
 }: Props) {
   return (
-    <main className="w-[350px] rounded-2xl overflow-hidden bg-white md:w-[700px] md:grid grid-cols-2">
+    <main className="w-[360px] hover:outline hover:outline-2 hover:outline-black shadow-css-0 rounded-2xl overflow-hidden bg-white xl:w-[720px] xl:grid grid-cols-2">
       <section
         className="bg-[url('./src/assets/images/image-product-mobile.jpg')] bg-cover bg-center
-      w-full h-[18rem] md:bg-[url('./src/assets/images/image-product-desktop.jpg')] md:h-full"
+      w-full h-[18rem] xl:bg-[url('./src/assets/images/image-product-desktop.jpg')] xl:h-full"
       ></section>
-      <section className="p-6 md:p-8 font-montserrat">
-        <p className="font-semibold tracking-widest text-dark-grayish-blue md:tracking-[0.5rem]">
+      <section className="p-6 xl:p-8 font-montserrat">
+        <p className="tracking-[0.25rem] text-xs text-dark-grayish-blue xl:tracking-[0.5rem]">
           {category}
         </p>
-        <h1 className="font-bold text-[2.25rem] font-fraunces text-very-dark-blue leading-[1] my-4 md:my-6 md:text-[3rem]">
+        <h1 className="font-bold text-[2rem] font-fraunces text-very-dark-blue leading-[1] my-4 xl:my-6 xl:text-[2.5rem]">
           {heading}
         </h1>
-        <p className="font-medium text-dark-grayish-blue leading-[1.9] md:text-xl">
+        <p className="font-medium text-dark-grayish-blue leading-[1.6] xl:text-lg">
           {copy}
         </p>
-        <div className="flex items-center gap-4 my-4 md:my-6">
-          <p className="text-[2rem] font-bold font-fraunces text-dark-cyan md:text-[2.5rem]">
+        <div className="flex items-center gap-4 my-4 xl:my-6">
+          <p className="text-[2rem] font-bold font-fraunces text-dark-cyan xl:text-[2.5rem]">
             ${price}
           </p>
-          <p className="line-through text-dark-grayish-blue">${actualPrice}</p>
+          <p className="font-semibold line-through text-dark-grayish-blue">
+            ${actualPrice}
+          </p>
         </div>
         <button
           type="button"
-          className="flex items-center justify-center w-full gap-2 py-4 text-base font-bold text-white rounded-lg cursor-pointer bg-dark-cyan hover:bg-darker-cyan"
+          className="flex items-center justify-center w-full gap-2 py-4 text-base font-medium text-white rounded-lg cursor-pointer bg-dark-cyan hover:bg-darker-cyan"
         >
           <span>
             <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
