@@ -14,23 +14,23 @@ export default function PreviewCard({
   actualPrice,
 }: Props) {
   return (
-    <main className="w-[360px] hover:outline hover:outline-2 hover:outline-black shadow-css-0 rounded-2xl overflow-hidden bg-white xl:w-[720px] xl:grid grid-cols-2">
+    <main className="w-[360px] hover:outline hover:outline-2 hover:outline-black shadow-css-0 rounded-2xl overflow-hidden bg-white xl:w-[600px] xl:grid grid-cols-2">
       <section
         className="bg-[url('../assets/images/image-product-mobile.jpg')] bg-cover bg-center
       w-full h-[18rem] xl:bg-[url('../assets/images/image-product-desktop.jpg')] xl:h-full"
       ></section>
       <section className="p-6 xl:p-8 font-montserrat">
-        <p className="tracking-[0.25rem] text-xs text-dark-grayish-blue xl:tracking-[0.5rem]">
+        <p className="tracking-[0.25rem] text-xs text-dark-grayish-blue xl:tracking-[0.25rem]">
           {category}
         </p>
-        <h1 className="font-bold text-[2rem] font-fraunces text-very-dark-blue leading-[1] my-4 xl:my-6 xl:text-[2.5rem]">
+        <h1 className="font-bold text-[2rem] font-fraunces text-very-dark-blue leading-[1] my-4 xl:my-6">
           {heading}
         </h1>
-        <p className="font-medium text-dark-grayish-blue leading-[1.6] xl:text-lg">
+        <p className="font-medium text-sm text-dark-grayish-blue leading-[1.6]">
           {copy}
         </p>
         <div className="flex items-center gap-4 my-4 xl:my-6">
-          <p className="text-[2rem] font-bold font-fraunces text-dark-cyan xl:text-[2.5rem]">
+          <p className="text-[2rem] font-bold font-fraunces text-dark-cyan">
             ${price}
           </p>
           <p className="font-semibold line-through text-dark-grayish-blue">
